@@ -9,8 +9,9 @@
             <nuxt-link to="classes" class="navbutton"> Already did? Head in!</nuxt-link>
         </div>
         <div id="links">
-            <a href="https://github.com/danielleodigie" class="linkbutton">GitHub</a>
+            <a href="https://github.com/danielleodigie/class-matching" class="linkbutton">GitHub</a>
             <a href="https://www.colorstack.org" class="linkbutton">Join Colorstack</a>
+            <a href="https://forms.gle/RCW6RB2rz45m51R79" class="linkbutton">Feedback Form</a>
         </div>
     </div>
 </template>
@@ -91,6 +92,17 @@
     }
 
     @media only screen and (max-width: 768px) {
+
+        #nav{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbutton{
+            padding: 15px;
+            margin: 10px;
+        }
         #home{
             display: flex;
             flex-direction: column;

@@ -52,11 +52,11 @@ import ClassButton from './ClassButton.vue';
 
     #namearea h2{
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     #namearea p{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     #classarea{
